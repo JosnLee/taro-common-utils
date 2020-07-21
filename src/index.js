@@ -1,6 +1,7 @@
 //验证手机号码，通过返回true
 import Taro from '@tarojs/taro'
 const ENV_TYPE = process.env.TARO_ENV
+import moment from 'moment'
 
 export function validateMobile(value) {
     const regMobile = /^1[3456789]\d{9}$/;
@@ -26,7 +27,7 @@ export function validateChineseName(value) {
     }
     return true;
 }
-
+// 数字千分位分割
 export function digitFormat(value) {
     var num = value * 1;
     return (num.toFixed(2) + '').replace(/\d{1,3}(?=(\d{3})+(\.\d*)?$)/g, '$&,');

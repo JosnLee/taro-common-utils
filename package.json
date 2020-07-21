@@ -1,6 +1,6 @@
 {
-  "name": "taro-util-serive",
-  "version": "1.0.1",
+  "name": "taro-util-service",
+  "version": "1.0.3",
   "description": "公共的一些方法的集合",
   "main": "lib/index.js",
   "scripts": {
@@ -14,14 +14,12 @@
   ],
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "lrz": "4.9.40",
     "moment": "2.24.0",
     "babel-preset-env": "^1.7.0"
   },
   "dependencies": {
     "babel-preset-env": "^1.7.0",
     "transform-runtime": "^0.0.0",
-    "lrz": "4.9.40",
     "moment": "2.24.0"
   },
   "author": "jerry",
