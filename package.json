@@ -1,6 +1,6 @@
 {
-  "name": "common-util",
-  "version": "1.0.0",
+  "name": "taro-util-serive",
+  "version": "1.0.1",
   "description": "公共的一些方法的集合",
   "main": "lib/index.js",
   "scripts": {
